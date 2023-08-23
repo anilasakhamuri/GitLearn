@@ -1,0 +1,17 @@
+git clone
+
+git add file.txt   ---->Adding new file to git (will be initially in modified state)
+
+git status          ---->says modified / staged / commited
+
+git restore --staged FiletobeDeleted.txt  ---->delete file
+					 |											 |
+clear ___________________________________|
+
+cat file.txt        -->print content of file
+
+vim file.txt        --->update content of the file
+
+git commit -m "Message to be shown"
+
+git push origin master  --> to save file in GitHub page
